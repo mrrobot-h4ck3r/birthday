@@ -18,22 +18,35 @@
 
 <body>
 
-    <!-- Stars -->
-    <div id="stars"></div>
+   <div id="stars"></div>
 
-    <!-- Hearts -->
-    <div id="hearts"></div>
+<div id="hearts"></div>
 
+<div id="moon" onclick="moonClick()">
+🌙
+</div>
+
+<div id="floatingMessage">
+✨
+</div>
     <div class="container">
 
         <h1 id="welcome"></h1>
+        <p id="todayMessage"></p>
 
-        <p class="subtitle">
+       <p class="subtitle">
 
-            Every second brings me closer to celebrating you ❤️
+Every heartbeat...
 
-        </p>
+Every second...
 
+Every smile...
+
+Brings me closer to celebrating the most beautiful girl.
+
+❤️
+
+</p>
         <div class="countdown">
 
             <div class="box">
@@ -89,23 +102,68 @@
     <button onclick="reason()">💖 Why I Like You</button>
 
 </div>
+<div class="special-buttons">
+
+    <button onclick="magicButton()">
+        ✨ Magic Button
+    </button>
+
+    <button onclick="openTimeCapsule()">
+        🔒 Time Capsule
+    </button>
+
+    <button onclick="nextReason()">
+        💖 Next Reason
+    </button>
+
+</div>
 
         <div id="messageBox">
 
             Click a button ❤️
 
         </div>
+<div class="heartbeat-box">
 
+    ❤️
+
+    <h3 id="heartbeatCounter">0</h3>
+
+    <p>
+        Heartbeats Until Your Birthday
+    </p>
+
+</div>
         <footer>
 
-            Made with ❤️ just for you
+<div id="typingFooter"></div>
 
-        </footer>
+<p>
+
+No matter which message you read today,
+
+my favorite one is still this:
+
+<strong>
+
+Happy Birthday,
+
+and thank you for being you.
+
+❤️
+
+</strong>
+
+</p>
+
+</footer>
 
     </div>
 
     <script src="script.js"></script>
-
+<button id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    ⬆️
+</button>
 </body>
 
 </html>
